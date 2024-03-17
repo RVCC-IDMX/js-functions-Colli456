@@ -71,6 +71,7 @@ const store = {
    */
   getName() {
     // write your code here & return value
+    const filtered = store.filter((store) => store.name);
   },
   /**
    * Returns the inventory of the store
@@ -79,6 +80,7 @@ const store = {
    */
   getInventory() {
     // write your code here & return value
+    return inventory;
   },
   /**
    * Returns an arrays of most expensive items in inventory
